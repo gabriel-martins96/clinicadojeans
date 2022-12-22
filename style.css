@@ -102,6 +102,7 @@ footer{
     text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
+    background-color: #213958;
 }
 
 /*################# Marcação página localização #################*/
@@ -119,6 +120,7 @@ label,input {
     margin: 0 0 20px 200px;
 	padding: 10px 25px;
 	width: 50%;
+    text-align: center;
     
 }
 h1{
@@ -126,8 +128,9 @@ h1{
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    padding: 5px 200px;
-    margin: auto;
+    margin: 0 0 20px 200px;
+	padding: 10px 25px;
+    text-align: left;
 }
 textarea{
     display: block;
@@ -138,4 +141,5 @@ textarea{
     padding:10px 0 0 50PX;
     height: 100px;
     width: 50%;
+    text-align: center;
 }

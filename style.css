@@ -110,7 +110,7 @@ p {
 }
 
 /*################# Marcação página trabalhe conosco #################*/
-label,input, h1 {
+label,input {
     display: block;
     font-family: 'Cormorant';
     font-weight: bolder;
@@ -118,10 +118,19 @@ label,input, h1 {
     padding: 5px 200px;
     margin: 10px 0 0 400px;
 }
+h1{
+    display: block;
+    font-family: 'Cormorant';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 200px;
+    margin: 10px 0 0 200px;
+}
 textarea{
     display: block;
     font-family: 'Cormorant';
     font-weight: bolder;
+    font-size: 20px;
     margin: 10px 0 0 400px;
     padding-left: 170px;
 }

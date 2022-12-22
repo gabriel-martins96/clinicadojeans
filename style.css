@@ -1,0 +1,103 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'blackgold';
+    src: url('fonte/blackgold.otf.otf') format('opentype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Cormorant';
+    src: url('fonte/Cormorant/static/Cormorant-Regular.ttf') format('truetype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    --fonte-gold: 'blackgold', cursive;
+    
+}
+:root{
+    --cordourado: #d9b569;
+}
+header > h1{
+    text-align: center;
+    font-family: 'blackgold';
+    font-size: 3em;
+    font-weight: bolder;
+    color: #213958;
+    padding: 20px;
+    margin: auto;
+      
+}
+header h2{
+    text-align: center;
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-size: 1.5em;
+    color: var(--cordourado);
+    padding-top: 15px;
+    padding-bottom: 35px;
+}
+header nav{
+    text-align: center;
+    padding-bottom: 19px;
+}
+header a{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(117, 116, 116);   
+}
+#dourado{
+    color: var(--cordourado);
+}
+a:hover{
+    color: var(--cordourado);
+}
+.header-img {
+    display: inline-block;
+    width: 100%;  
+}
+section{
+text-align: justify;
+}
+.frente{
+    width: 30%; 
+    float: left;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
+}
+/*aqui o margin é importante para leitura*/
+.titulo-principal{
+    font-family: 'blackgold'; 
+    margin: 10px 24px 10px 24px;
+    color: #213958;   
+}
+/*Aqui criei um section para englobar todos os parágrafos*/
+ p {
+    
+    font-family: 'Cormorant';
+    font-weight: bolder; 
+    padding: 10px;
+ }
+/*################# Marcação localização #################*/
+.map{
+    clear: left;
+    margin: 1em;
+}
+
+/*################# Marcação trabalhe conosco #################*/
+input,label, textarea{
+    display: block;
+    font-family: 'Cormorant';
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px 60px;
+    margin: 10px 0 0 400px;
+
+    
+}
+
+

@@ -24,11 +24,6 @@
     --cordourado: #d9b569;
 }
 
-main,
-footer {
-    margin: 0 100px;
-}
-
 header>h1 {
     text-align: center;
     font-family: 'blackgold';
@@ -95,12 +90,18 @@ section {
     color: #213958;
 }
 
-/*Aqui criei um section para englobar todos os parágrafos*/
+/*Aqui criei uma section para englobar todos os parágrafos*/
 p {
 
     font-family: 'Cormorant';
     font-weight: bolder;
     padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
 }
 
 /*################# Marcação página localização #################*/
@@ -115,8 +116,10 @@ label,input {
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    padding: 5px 200px;
-    margin: 10px 0 0 400px;
+    margin: 0 0 20px 200px;
+	padding: 10px 25px;
+	width: 50%;
+    
 }
 h1{
     display: block;
@@ -124,15 +127,15 @@ h1{
     font-weight: bolder;
     font-size: 20px;
     padding: 5px 200px;
-    margin: 10px 0 0 200px;
+    margin: auto;
 }
 textarea{
     display: block;
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    margin: 10px 0 0 400px;
+    margin: 10px 0 40px 200px;
     padding:10px 0 0 50PX;
     height: 100px;
-    width: 555px;
+    width: 50%;
 }

@@ -132,5 +132,7 @@ textarea{
     font-weight: bolder;
     font-size: 20px;
     margin: 10px 0 0 400px;
-    padding-left: 170px;
+    padding:10px 0 0 50PX;
+    height: 100px;
+    width: 555px;
 }

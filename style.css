@@ -1,28 +1,35 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'blackgold';
     src: url('fonte/blackgold.otf.otf') format('opentype');
     font-weight: normal;
 }
+
 @font-face {
     font-family: 'Cormorant';
     src: url('fonte/Cormorant/static/Cormorant-Regular.ttf') format('truetype');
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
-*{
+* {
     padding: 0px;
     margin: 0px;
     --fonte-gold: 'blackgold', cursive;
-    
+
 }
-:root{
+
+:root {
     --cordourado: #d9b569;
 }
-main,footer{
+
+main,
+footer {
     margin: 0 100px;
 }
-header > h1{
+
+header>h1 {
     text-align: center;
     font-family: 'blackgold';
     font-size: 3em;
@@ -30,9 +37,10 @@ header > h1{
     color: #213958;
     padding: 20px;
     margin: auto;
-      
+
 }
-header h2{
+
+header h2 {
     text-align: center;
     font-family: 'Cormorant';
     font-style: italic;
@@ -41,66 +49,79 @@ header h2{
     padding-top: 15px;
     padding-bottom: 35px;
 }
-header nav{
+
+header nav {
     text-align: center;
     padding-bottom: 19px;
 }
-header a{
+
+header a {
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
     padding: 5px;
-    color: rgb(117, 116, 116);   
+    color: rgb(117, 116, 116);
 }
-#dourado{
+
+#dourado {
     color: var(--cordourado);
 }
-a:hover{
+
+a:hover {
     color: var(--cordourado);
 }
+
 .header-img {
     display: inline-block;
-    width: 100%;  
+    width: 100%;
 }
-section{
-text-align: justify;
+
+section {
+    text-align: justify;
 }
-.frente{
-    width: 30%; 
+
+.frente {
+    width: 30%;
     float: left;
     margin: 10px 10px 0 10px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
 }
+
 /*aqui o margin é importante para leitura*/
-.titulo-principal{
-    font-family: 'blackgold'; 
+.titulo-principal {
+    font-family: 'blackgold';
     margin: 10px 24px 10px 24px;
-    color: #213958;   
+    color: #213958;
 }
+
 /*Aqui criei um section para englobar todos os parágrafos*/
- p {
-    
+p {
+
     font-family: 'Cormorant';
-    font-weight: bolder; 
+    font-weight: bolder;
     padding: 10px;
- }
-/*################# Marcação localização #################*/
-.map{
+}
+
+/*################# Marcação página localização #################*/
+.map {
     clear: left;
     margin: 1em;
 }
 
-/*################# Marcação trabalhe conosco #################*/
-input,label, textarea{
+/*################# Marcação página trabalhe conosco #################*/
+label,input, h1 {
     display: block;
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    padding: 5px 60px;
+    padding: 5px 200px;
     margin: 10px 0 0 400px;
-
-    
 }
-
-
+textarea{
+    display: block;
+    font-family: 'Cormorant';
+    font-weight: bolder;
+    margin: 10px 0 0 400px;
+    padding-left: 170px;
+}

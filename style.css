@@ -19,6 +19,9 @@
 :root{
     --cordourado: #d9b569;
 }
+main,footer{
+    margin: 0 100px;
+}
 header > h1{
     text-align: center;
     font-family: 'blackgold';

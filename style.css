@@ -117,7 +117,7 @@ label,input {
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    margin: 0 0 20px 200px;
+    margin: auto;
 	padding: 10px 25px;
 	width: 50%;
     text-align: center;
@@ -128,18 +128,22 @@ h1{
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    margin: 0 0 20px 200px;
+    margin: auto;
 	padding: 10px 25px;
-    text-align: left;
+    text-align: center;
 }
 textarea{
     display: block;
     font-family: 'Cormorant';
     font-weight: bolder;
     font-size: 20px;
-    margin: 10px 0 40px 200px;
-    padding:10px 0 0 50PX;
+    margin: auto;
+    padding:10px 0 20px 50px;
     height: 100px;
     width: 50%;
     text-align: center;
+}
+#submit{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

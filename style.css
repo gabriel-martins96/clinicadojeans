@@ -24,9 +24,10 @@
     --cordourado: #d9b569;
 }
 main{
+    clear: left;
     width: 70%;
     margin: auto;
-    margin-bottom: 20%;
+    margin-bottom: 50px;
     margin-top: 5%;
 }
 
@@ -84,7 +85,7 @@ section {
 .frente {
     width: 30%;
     float: left;
-    margin: 10px 10px 0 10px;
+    margin: 10px 10px 50px 10px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.53);
 }
@@ -154,5 +155,5 @@ textarea{
 }
 #submit{
     margin-top: 20px;
-    margin-bottom: 20px;
+    
 }

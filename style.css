@@ -145,16 +145,11 @@ footer {
 
 /*################# Marcação página localização #################*/
 .map {
-    clear: left;
-    margin: 1em;
+    width: 100%;
     text-align: center;
+    line-height: 50px;
 }
 
-.ajustantomaps{
-    width: 70%;
-    margin: 0 auto;
-    text-align: center;
-}
 
 /*################# Marcação página trabalhe conosco #################*/
 label,
